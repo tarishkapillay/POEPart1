@@ -31,7 +31,8 @@ class Recipe
         Ingredients = new string[0];
         Steps = new string[0];
     }
-
+    // In the Main method of the Program class
+    // the code creates a new Recipe object and prompts the user to enter the number of ingredients and steps for the recipe.
     class Program
     {
         static void Main()

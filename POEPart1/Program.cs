@@ -33,6 +33,7 @@ class Recipe
     }
     // In the Main method of the Program class
     // the code creates a new Recipe object and prompts the user to enter the number of ingredients and steps for the recipe.
+    // then loops through the user input to add ingredients and steps to the recipe using the AddIngredient and AddStep methods.
     class Program
     {
         static void Main()

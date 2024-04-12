@@ -16,7 +16,7 @@ class Recipe
 
     public void AddIngredient(string ingredient)
     {
-        Array.Resize(ref Ingredients, Ingredients.Length + 1);
+       // Array.Resize(ref Ingredients, Ingredients.Length + 1);
         Ingredients[Ingredients.Length - 1] = ingredient;
     }
 

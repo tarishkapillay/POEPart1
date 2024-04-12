@@ -76,6 +76,7 @@ class Recipe
             foreach (string step in recipe.Steps)
             {
                 Console.WriteLine(step);
+                //the code displays the recipe by printing out the ingredients and steps using a foreach loop.
             }
         }
     }

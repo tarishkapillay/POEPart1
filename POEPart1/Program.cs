@@ -22,7 +22,7 @@ class Recipe
 
     public void AddStep(string step)
     {
-        Array.Resize(ref Steps, Steps.Length + 1);
+        //Array.Resize(ref Steps, Steps.Length + 1);
         Steps[Steps.Length - 1] = step;
     }
 

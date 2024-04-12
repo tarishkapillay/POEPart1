@@ -8,7 +8,7 @@ class Recipe
     public Recipe()
     {
         Ingredients = new string[30];
-        Steps = new string[0];
+        Steps = new string[30];
     }
 
     public void AddIngredient(string ingredient)

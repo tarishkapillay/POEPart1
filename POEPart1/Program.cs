@@ -1,5 +1,6 @@
 ﻿using System;
 
+// defines a Recipe class with properties for Ingredients and Steps.
 class Recipe
 {
     public string[] Ingredients { get; set; }
